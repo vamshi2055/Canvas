@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.3" icons="true" automaticImage="JPEG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true" 
+  router="FAN">  
+  <enumeration id="1" language="java" name="com.creditsuisse.canvas.ConsoleCommandAttributesEnum" 
+    project="CreditSuisse-Canvas" 
+    file="/CreditSuisse-Canvas/src/main/java/com/creditsuisse/canvas/ConsoleCommandAttributesEnum.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="296" width="367" x="715" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="2" language="java" name="com.creditsuisse.canvas.CreditSuisseCanvasApplication" 
+    project="CreditSuisse-Canvas" 
+    file="/CreditSuisse-Canvas/src/main/java/com/creditsuisse/canvas/CreditSuisseCanvasApplication.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="116" width="299" x="2735" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.creditsuisse.canvas.commands.QuitCommand" project="CreditSuisse-Canvas" 
+    file="/CreditSuisse-Canvas/src/main/java/com/creditsuisse/canvas/commands/QuitCommand.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="116" width="282" x="6130" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.creditsuisse.canvas.commands.LineCommand" project="CreditSuisse-Canvas" 
+    file="/CreditSuisse-Canvas/src/main/java/com/creditsuisse/canvas/commands/LineCommand.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="196" width="282" x="5486" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.creditsuisse.canvas.commands.FillCommand" project="CreditSuisse-Canvas" 
+    file="/CreditSuisse-Canvas/src/main/java/com/creditsuisse/canvas/commands/FillCommand.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="176" width="282" x="5808" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="6" language="java" name="com.creditsuisse.canvas.commands.Command" project="CreditSuisse-Canvas" 
+    file="/CreditSuisse-Canvas/src/main/java/com/creditsuisse/canvas/commands/Command.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="96" width="282" x="5486" y="373"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="7" language="java" name="com.creditsuisse.canvas.commands.CreateCommand" project="CreditSuisse-Canvas" 
+    file="/CreditSuisse-Canvas/src/main/java/com/creditsuisse/canvas/commands/CreateCommand.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="196" width="282" x="4520" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.creditsuisse.canvas.commands.RectangleCommand" project="CreditSuisse-Canvas" 
+    file="/CreditSuisse-Canvas/src/main/java/com/creditsuisse/canvas/commands/RectangleCommand.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="196" width="282" x="5164" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="com.creditsuisse.canvas.commands.DiagnolLineCommand" project="CreditSuisse-Canvas" 
+    file="/CreditSuisse-Canvas/src/main/java/com/creditsuisse/canvas/commands/DiagnolLineCommand.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="196" width="282" x="4842" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="com.creditsuisse.canvas.commands.UnknownCommand" project="CreditSuisse-Canvas" 
+    file="/CreditSuisse-Canvas/src/main/java/com/creditsuisse/canvas/commands/UnknownCommand.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="116" width="282" x="6452" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="11" language="java" 
+    name="com.creditsuisse.canvas.drawing.console.handlers.ConsoleCommandArgumentHandler" project="CreditSuisse-Canvas" 
+    file="/CreditSuisse-Canvas/src/main/java/com/creditsuisse/canvas/drawing/console/handlers/ConsoleCommandArgumentHandler.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="96" width="341" x="1652" y="689"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="12" language="java" 
+    name="com.creditsuisse.canvas.drawing.console.handlers.ConsoleCommandArgumentHandlerFactory" 
+    project="CreditSuisse-Canvas" 
+    file="/CreditSuisse-Canvas/src/main/java/com/creditsuisse/canvas/drawing/console/handlers/ConsoleCommandArgumentHandlerFactory.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="116" width="678" x="2735" y="373"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" 
+    name="com.creditsuisse.canvas.drawing.console.handlers.CreateConsoleCommandArgumentHandler" 
+    project="CreditSuisse-Canvas" 
+    file="/CreditSuisse-Canvas/src/main/java/com/creditsuisse/canvas/drawing/console/handlers/CreateConsoleCommandArgumentHandler.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="116" width="399" x="2296" y="373"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" 
+    name="com.creditsuisse.canvas.drawing.console.handlers.LineConsoleCommandArgumentHandler" 
+    project="CreditSuisse-Canvas" 
+    file="/CreditSuisse-Canvas/src/main/java/com/creditsuisse/canvas/drawing/console/handlers/LineConsoleCommandArgumentHandler.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="116" width="379" x="1877" y="373"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" 
+    name="com.creditsuisse.canvas.drawing.console.handlers.RectangleConsoleCommandArgumentHandler" 
+    project="CreditSuisse-Canvas" 
+    file="/CreditSuisse-Canvas/src/main/java/com/creditsuisse/canvas/drawing/console/handlers/RectangleConsoleCommandArgumentHandler.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="116" width="429" x="945" y="373"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" 
+    name="com.creditsuisse.canvas.drawing.console.handlers.UnknownConsoleCommandArgumentHandler" 
+    project="CreditSuisse-Canvas" 
+    file="/CreditSuisse-Canvas/src/main/java/com/creditsuisse/canvas/drawing/console/handlers/UnknownConsoleCommandArgumentHandler.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="116" width="423" x="1414" y="373"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" 
+    name="com.creditsuisse.canvas.drawing.console.handlers.FillConsoleCommandArgumentHandler" 
+    project="CreditSuisse-Canvas" 
+    file="/CreditSuisse-Canvas/src/main/java/com/creditsuisse/canvas/drawing/console/handlers/FillConsoleCommandArgumentHandler.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="116" width="367" x="3453" y="373"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" 
+    name="com.creditsuisse.canvas.drawing.console.handlers.QuitConsoleCommandArgumentHandler" 
+    project="CreditSuisse-Canvas" 
+    file="/CreditSuisse-Canvas/src/main/java/com/creditsuisse/canvas/drawing/console/handlers/QuitConsoleCommandArgumentHandler.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="116" width="377" x="43" y="373"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" 
+    name="com.creditsuisse.canvas.drawing.console.handlers.DiagonalLineConsoleCommandArgumentHandler" 
+    project="CreditSuisse-Canvas" 
+    file="/CreditSuisse-Canvas/src/main/java/com/creditsuisse/canvas/drawing/console/handlers/DiagonalLineConsoleCommandArgumentHandler.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="116" width="445" x="460" y="373"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="com.creditsuisse.canvas.exception.CanvasException" project="CreditSuisse-Canvas" 
+    file="/CreditSuisse-Canvas/src/main/java/com/creditsuisse/canvas/exception/CanvasException.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="116" width="228" x="1794" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="com.creditsuisse.canvas.models.Rectangle" project="CreditSuisse-Canvas" 
+    file="/CreditSuisse-Canvas/src/main/java/com/creditsuisse/canvas/models/Rectangle.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="276" width="324" x="3860" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="com.creditsuisse.canvas.models.Canvas" project="CreditSuisse-Canvas" 
+    file="/CreditSuisse-Canvas/src/main/java/com/creditsuisse/canvas/models/Canvas.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="276" width="213" x="4224" y="373"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="com.creditsuisse.canvas.models.DiagonalLine" project="CreditSuisse-Canvas" 
+    file="/CreditSuisse-Canvas/src/main/java/com/creditsuisse/canvas/models/DiagonalLine.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="296" width="284" x="3212" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="24" language="java" name="com.creditsuisse.canvas.models.Shape" project="CreditSuisse-Canvas" 
+    file="/CreditSuisse-Canvas/src/main/java/com/creditsuisse/canvas/models/Shape.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="96" width="213" x="3860" y="373"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="25" language="java" name="com.creditsuisse.canvas.models.Line" project="CreditSuisse-Canvas" 
+    file="/CreditSuisse-Canvas/src/main/java/com/creditsuisse/canvas/models/Line.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="276" width="284" x="3536" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="com.creditsuisse.canvas.models.CanvasDrawingTool" project="CreditSuisse-Canvas" 
+    file="/CreditSuisse-Canvas/src/main/java/com/creditsuisse/canvas/models/CanvasDrawingTool.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="236" width="256" x="4224" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="27">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="28" name="handlerMap"/>      
+      <multiplicity id="29" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="30">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <realization id="31">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <realization id="32">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="24"/>  
+  </realization>  
+  <realization id="33">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <realization id="34">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <realization id="35">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="24"/>  
+  </realization>  
+  <realization id="36">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <realization id="37">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <realization id="38">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="24"/>  
+  </realization>  
+  <association id="39">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="40" name="handlerFactory"/>      
+      <multiplicity id="41" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="42">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <association id="43">    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="44" name="canvas"/>      
+      <multiplicity id="45" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="46">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <realization id="47">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <realization id="48">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <realization id="49">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <realization id="50">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <realization id="51">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <realization id="52">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
